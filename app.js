@@ -73,7 +73,8 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@nilay-cluster-xc52h.mongodb.net/messages?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@nilay-cluster-xc52h.mongodb.net/messages?retryWrites=true&w=majority`,
+    {useNewUrlParser: true}
   )
   .then(result => {
     app.listen(8080);
