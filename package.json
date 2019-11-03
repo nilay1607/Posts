@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "nodejs-practise",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/udemy-course-nodejs-complete"
+    "url": "https://github.com/nilay1607/Posts.git"
   },
-  "author": "",
+  "author": "Nilay Shah",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
